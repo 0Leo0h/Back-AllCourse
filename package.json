@@ -1,0 +1,35 @@
+{
+  "name": "back-allcourses",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev --respawn --pretty --transpile-only src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leo",
+  "license": "ISC",
+  "dependencies": {
+    "@googleapis/calendar": "^2.0.0",
+    "@types/bcrypt": "^5.0.0",
+    "@types/body-parser": "^1.19.2",
+    "@types/cors": "^2.8.12",
+    "@types/mysql": "^2.15.20",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "googleapis": "^105.0.0",
+    "mysql": "^2.3.3",
+    "nodemailer": "^6.5.0",
+    "promise-mysql": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.13",
+    "@types/nodemailer": "^6.4.4",
+    "nodemon": "^2.0.15",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.5"
+  }
+}
